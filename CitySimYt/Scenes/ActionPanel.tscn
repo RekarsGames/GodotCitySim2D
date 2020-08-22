@@ -1,0 +1,142 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/ActionPanel.cs" type="Script" id=4]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0.435294, 0.482353, 1 )
+shadow_size = 2
+shadow_offset = Vector2( 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=2]
+bg_color = Color( 1, 0, 0, 1 )
+
+[node name="ActionPanel" type="CanvasLayer"]
+script = ExtResource( 4 )
+
+[node name="Sidebar" type="ColorRect" parent="."]
+anchor_top = 0.1
+anchor_bottom = 0.847
+margin_right = 50.0
+color = Color( 0, 0.647059, 1, 0.392157 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnResidential" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 64.0
+margin_right = 47.0
+margin_bottom = 105.0
+custom_styles/normal = SubResource( 1 )
+text = "Resi."
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnBusiness" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 111.0
+margin_right = 47.0
+margin_bottom = 152.0
+custom_styles/normal = SubResource( 1 )
+text = "Busi."
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnIndustry" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 158.0
+margin_right = 47.0
+margin_bottom = 199.0
+custom_styles/normal = SubResource( 1 )
+text = "Ind."
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnRoad" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 211.0
+margin_right = 47.0
+margin_bottom = 252.0
+custom_styles/normal = SubResource( 1 )
+text = "Road"
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnPolice" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 261.0
+margin_right = 47.0
+margin_bottom = 302.0
+custom_styles/normal = SubResource( 1 )
+text = "Police"
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnFire" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 309.0
+margin_right = 47.0
+margin_bottom = 350.0
+custom_styles/normal = SubResource( 1 )
+text = "Fire"
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnUtil" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 356.0
+margin_right = 47.0
+margin_bottom = 397.0
+custom_styles/normal = SubResource( 1 )
+text = "Util."
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnPark" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 408.0
+margin_right = 47.0
+margin_bottom = 449.0
+custom_styles/normal = SubResource( 1 )
+text = "Park"
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnDemolish" type="Button" parent="."]
+margin_left = 3.0
+margin_top = 463.0
+margin_right = 47.0
+margin_bottom = 504.0
+custom_styles/normal = SubResource( 2 )
+text = "Dem."
+expand_icon = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="mouse_entered" from="Sidebar" to="." method="_on_Sidebar_mouse_entered"]
+[connection signal="mouse_exited" from="Sidebar" to="." method="_on_Sidebar_mouse_exited"]
+[connection signal="pressed" from="btnResidential" to="." method="_on_btnResidential_pressed"]
+[connection signal="pressed" from="btnBusiness" to="." method="_on_btnBusiness_pressed"]
+[connection signal="pressed" from="btnIndustry" to="." method="_on_btnIndustry_pressed"]
+[connection signal="pressed" from="btnRoad" to="." method="_on_btnRoad_pressed"]
+[connection signal="pressed" from="btnPolice" to="." method="_on_btnPolice_pressed"]
+[connection signal="pressed" from="btnFire" to="." method="_on_btnFire_pressed"]
+[connection signal="pressed" from="btnUtil" to="." method="_on_btnUtil_pressed"]
+[connection signal="pressed" from="btnPark" to="." method="_on_btnPark_pressed"]
+[connection signal="pressed" from="btnDemolish" to="." method="_on_btnDemolish_pressed"]

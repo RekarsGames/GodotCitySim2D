@@ -1,0 +1,11 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Scenes/Zone.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scenes/BusinessZone.cs" type="Script" id=2]
+[ext_resource path="res://Assets/Sprites/Business.png" type="Texture" id=3]
+
+[node name="BusinessZone" instance=ExtResource( 1 )]
+script = ExtResource( 2 )
+
+[node name="Sprite" parent="Area2D" index="0"]
+texture = ExtResource( 3 )

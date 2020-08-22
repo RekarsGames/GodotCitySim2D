@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Assets/Sprites/SelectionRect.png" type="Texture" id=1]
+[ext_resource path="res://Scenes/GameController.cs" type="Script" id=2]
+
+[node name="GameController" type="Node2D"]
+script = ExtResource( 2 )
+
+[node name="Mouse" type="Sprite" parent="."]
+texture = ExtResource( 1 )
