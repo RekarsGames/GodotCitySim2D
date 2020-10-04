@@ -1,0 +1,6 @@
+E:\Hobby Shit\GodotStuff\CitySimYt\.mono\temp\bin\Debug\City Sim.dll
+E:\Hobby Shit\GodotStuff\CitySimYt\.mono\temp\bin\Debug\City Sim.pdb
+E:\Hobby Shit\GodotStuff\CitySimYt\.mono\temp\obj\Debug\City Sim.csprojAssemblyReference.cache
+E:\Hobby Shit\GodotStuff\CitySimYt\.mono\temp\obj\Debug\City Sim.csproj.CoreCompileInputs.cache
+E:\Hobby Shit\GodotStuff\CitySimYt\.mono\temp\obj\Debug\City Sim.dll
+E:\Hobby Shit\GodotStuff\CitySimYt\.mono\temp\obj\Debug\City Sim.pdb
